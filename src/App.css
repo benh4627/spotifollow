@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  display: grid;
+  flex-direction: row;
+  justify-content: space-evenly;
+  grid-template-rows: 10% 80% auto;
+  grid-template-columns: 30% auto;
+  justify-items: center;
+}
+
+button {
+  margin: 15px;
+}
+
+.nowPlayingImage {
+  width: 300px;
+}
+
+
+button {
+  background-color: #1DB954;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 12px 26px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1.3px;
+  grid-column: 2;
+}
+
+.twitter {
+  padding: 100px 0px;
+}
+
+.login-button {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  padding: 10px;
+}
+
+.now-playing-name {
+  padding-top: 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.player {
+  padding: 100px 0px;
+  text-align: left;
+  
+}
+
+.logo-img {
+  position: absolute;
+  left: 0px;
+  width: 300px;
+  padding: 10px;
+}
+
+.footer-msg {
+  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  font-size: 12px;
+}
